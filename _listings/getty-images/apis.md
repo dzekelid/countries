@@ -18,9 +18,9 @@ tags:
 - Photo
 - Images
 - Getting Started
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/countries/master/_listings/getty-images/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/getty-images/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Getty Images
@@ -31,7 +31,7 @@ apis:
   tags: Countries
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/countries/master/_listings/getty-images/v3-countries-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/getty-images/v3-countries-get.md
 x-common:
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
