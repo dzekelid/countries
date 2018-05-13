@@ -42,16 +42,7 @@ created: "2018-05-13"
 modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Etsy Get Countries Country
-  description: Retrieves a Country by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private
-  tags: Countries
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/etsy/countries-country-id-get.md
+apis: []
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
