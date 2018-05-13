@@ -33,7 +33,7 @@ apis:
   tags: Countries
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/akamai/config-media-live-v1-live-utils-countries-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/akamai/config-media-security-v1-security-countries-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
