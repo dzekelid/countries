@@ -1,5 +1,6 @@
 ---
 name: Etsy
+x-slug: etsy
 description: Etsy is a website that focuses on handmade and vintage items, as well
   as art and craft supplies. The items include art, photography, clothing, jewelry,
   edibles, quilts, and toys. Etsy is modeled after open craft fairs that give sellers
@@ -10,39 +11,48 @@ description: Etsy is a website that focuses on handmade and vintage items, as we
 image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Woodworking
-- Weddings
-- Vintage
-- Toys
-- Supplies
-- Stack Network
-- Stack
-- Quilts
-- Product
-- Plants and Edibles
-- Pets
-- Patterns
-- Paper Goods
-- Needlecraft
-- Knitting
-- Jewelry
-- Housewares
-- Holidays
-- Glass
-- Geekery
-- Furniture
-- Dolls and Miniatures
-- Crochet
-- Crafts
-- Clothing
-- Children
-- API LIfeycle
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Countries
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Etsy Get Countries Country
+  x-api-slug: etsy
+  description: Retrieves a Country by id.
+  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private//countries/{country_id}
+  tags: Countries,Country
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/etsy/countriescountry-id-get-openapi.md
+- name: Etsy Get Countries
+  x-api-slug: etsy
+  description: Finds all Country.
+  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private//countries
+  tags: Countries
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/etsy/countries-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/etsy/countries-get-openapi.md
+- name: Etsy
+  x-api-slug: etsy
+  description: Etsy is a handmade marketplace. The Etsy API lets developers tap into
+    the Etsy community, building their own Etsy-powered applications for the web,
+    desktop and mobile devices. Applications built on the API will connect buyers
+    with sellers, promote the handmade lifestyle, and support the craftspeople who
+    sell on Etsy.
+  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private
+  tags: Countries
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/etsy/openapi.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json

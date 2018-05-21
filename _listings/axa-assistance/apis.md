@@ -1,31 +1,40 @@
 ---
 name: AXA Assistance
+x-slug: axa-assistance
 description: AXA Assistance is a worldwide specialist for car insurance, travel, health
   and home services. Trust in Axa Assistance for your insurance!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
 x-kinRank: "8"
 x-alexaRank: "2107685"
-tags:
-- Technology
-- New
-- internet
-- Insurance
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Countries
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/axa-assistance/apis.md
 specificationVersion: "0.14"
 apis:
 - name: AXA Assistance Retrieve all countries
+  x-api-slug: axa-assistance
   description: Retrieve all countries
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com////information/v1/countries
+  tags: Insurance,Retrieve, all, countries
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/axa-assistance/informationv1countries-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/axa-assistance/informationv1countries-get-openapi.md
+- name: AXA Assistance
+  x-api-slug: axa-assistance
+  description: AXA Assistance is a worldwide specialist for car insurance, travel,
+    health and home services. Trust in Axa Assistance for your insurance!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
   humanURL: https://www.axa-assistance.com
   baseURL: https://sandbox.api.axa-assistance.com//
   tags: Countries
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/axa-assistance/information-v1-countries-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/axa-assistance/information-v1-countries-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/axa-assistance/openapi.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/axa-assitance
