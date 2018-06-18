@@ -1,21 +1,14 @@
 ---
 name: Eventbrite
 x-slug: eventbrite
-description: Eventbrite believes that anyone can be an event organizer. That&rsquo;s
-  why they offer tools that make it easy to sell tickets to all kinds of events whether
-  it&rsquo;s a photography class or a sold-out concert, an inspiring conference or
-  an air-guitar competition. With Eventbrite, organizers can create a customizable
-  event page; spread the word with social media; collect money; and gain visibility
-  into attendees and sales. Eventbrite is for anyone planning or attending an event.
-  It empowers event organizers to become more efficient and effective when bringing
-  people together. And people everywhere are searching Eventbrite to discover great
-  events that matter to them.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eventbritelogoff8000gradient.png
+description: Eventbrite brings people together through live experiences. Discover
+  events that match your passions, or create your own with online ticketing tools.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "643"
 tags: Countries
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/eventbrite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +16,9 @@ apis:
   x-api-slug: eventbrite
   description: Get the countries and currencies which are supported by Eventbrite
     for ticket payment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eventbritelogoff8000gradient.png
-  humanURL: http://developer.eventbrite.com/
-  baseURL: https://www.eventbriteapi.com//v3//checkout_settings/countries_currencies/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D///checkout_settings/countries_currencies/
   tags: Checkout,Settings,Countries,Currencies
   properties:
   - type: x-postman-collection
@@ -37,9 +30,9 @@ apis:
   description: |-
     Returns a single page response with a key of countries,
     containing a list of countries.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eventbritelogoff8000gradient.png
-  humanURL: http://developer.eventbrite.com/
-  baseURL: https://www.eventbriteapi.com//v3//system/countries/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D///system/countries/
   tags: System,Countries
   properties:
   - type: x-postman-collection
@@ -48,18 +41,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/eventbrite/systemcountries-get-openapi.md
 - name: Eventbrite
   x-api-slug: eventbrite
-  description: Eventbrite believes that anyone can be an event organizer. That&rsquo;s
-    why they offer tools that make it easy to sell tickets to all kinds of events
-    whether it&rsquo;s a photography class or a sold-out concert, an inspiring conference
-    or an air-guitar competition. With Eventbrite, organizers can create a customizable
-    event page; spread the word with social media; collect money; and gain visibility
-    into attendees and sales. Eventbrite is for anyone planning or attending an event.
-    It empowers event organizers to become more efficient and effective when bringing
-    people together. And people everywhere are searching Eventbrite to discover great
-    events that matter to them.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eventbritelogoff8000gradient.png
-  humanURL: http://developer.eventbrite.com/
-  baseURL: https://www.eventbriteapi.com//v3
+  description: Eventbrite brings people together through live experiences. Discover
+    events that match your passions, or create your own with online ticketing tools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
   tags: Countries
   properties:
   - type: x-openapi-spec
@@ -77,6 +63,8 @@ x-common:
   url: http://blog.eventbrite.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/eventbrite
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/eventbrite
 - type: x-developer
   url: https://developer.eventbrite.com/
 - type: x-github
@@ -85,7 +73,7 @@ x-common:
   url: http://help.eventbrite.com/customer/en_us/portal/articles/428604
 - type: x-privacy
   url: http://www.eventbrite.com/privacypolicy
-- type: x-sdksio
+- type: x-sdks-io
   url: https://sdks.io/SDK/View/eventbrite
 - type: x-selfservice-registration
   url: https://www.eventbrite.com/signup/?referrer=%2F%3Fshow_onboarding%3D1&user_type=prebuyer&user_type_sig=AH_ElWGNJ_zHaAxwjzt5jiCRmvPvNBsy6w
@@ -93,8 +81,14 @@ x-common:
   url: http://www.eventbrite.com/tos
 - type: x-twitter
   url: https://twitter.com/EventbriteAPI
+- type: x-twitter
+  url: https://twitter.com/eventbrite
+- type: x-website
+  url: http://eventbriteapi.com
 - type: x-website
   url: http://developer.eventbrite.com/
+- type: x-website
+  url: http://eventbrite.com
 include: []
 maintainers:
 - FN: Kin Lane

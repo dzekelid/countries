@@ -1,13 +1,12 @@
 ---
 swagger: "2.0"
-x-collection-name: Etsy
+x-collection-name: Lykke
 x-complete: 0
 info:
-  title: Etsy Get Countries Country
-  description: Retrieves a Country by id.
+  title: Lykke Get API Restrictedcountries
   version: 1.0.0
-host: openapi.etsy.com
-basePath: /v2/private/
+  description: Get api restrictedcountries.
+basePath: /
 schemes:
 - http
 produces:
@@ -15,21 +14,17 @@ produces:
 consumes:
 - application/json
 paths:
-  /countries/{country_id}:
+  /api/RestrictedCountries:
     get:
-      summary: Get Countries Country
-      description: Retrieves a Country by id.
-      operationId: getCountriesCountry
-      x-api-path-slug: countriescountry-id-get
-      parameters:
-      - in: path
-        name: country_id
+      summary: Get API Restrictedcountries
+      description: Get api restrictedcountries.
+      operationId: ApiRestrictedCountriesGet
+      x-api-path-slug: apirestrictedcountries-get
       responses:
         200:
           description: OK
       tags:
-      - Countries
-      - Country
+      - Restrictedcountries
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

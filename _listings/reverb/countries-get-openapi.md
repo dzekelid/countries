@@ -1,13 +1,18 @@
 ---
 swagger: "2.0"
-x-collection-name: Etsy
+x-collection-name: Reverb
 x-complete: 0
 info:
-  title: Etsy Get Countries
-  description: Finds all Country.
-  version: 1.0.0
-host: openapi.etsy.com
-basePath: /v2/private/
+  title: reverb Get Countries
+  description: Retrieve a list of country codes with corresponding subregions
+  termsOfService: https://reverb.com/page/terms
+  contact:
+    name: Reverb API
+    url: https://dev.reverb.com
+    email: integrations@reverb.com
+  version: "3.0"
+host: api.reverb.com
+basePath: /api
 schemes:
 - http
 produces:
@@ -15,25 +20,10 @@ produces:
 consumes:
 - application/json
 paths:
-  /countries/{country_id}:
-    get:
-      summary: Get Countries Country
-      description: Retrieves a Country by id.
-      operationId: getCountriesCountry
-      x-api-path-slug: countriescountry-id-get
-      parameters:
-      - in: path
-        name: country_id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Countries
-      - Country
   /countries:
     get:
       summary: Get Countries
-      description: Finds all Country.
+      description: Retrieve a list of country codes with corresponding subregions
       operationId: getCountries
       x-api-path-slug: countries-get
       responses:

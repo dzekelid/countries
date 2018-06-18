@@ -1,13 +1,13 @@
 ---
 swagger: "2.0"
-x-collection-name: Etsy
+x-collection-name: taxamo
 x-complete: 0
 info:
-  title: Etsy Get Countries Country
-  description: Retrieves a Country by id.
-  version: 1.0.0
-host: openapi.etsy.com
-basePath: /v2/private/
+  title: Taxamo Countries
+  description: Countries.
+  version: "1"
+host: api.taxamo.com
+basePath: /
 schemes:
 - http
 produces:
@@ -15,21 +15,21 @@ produces:
 consumes:
 - application/json
 paths:
-  /countries/{country_id}:
+  /api/v1/dictionaries/countries:
     get:
-      summary: Get Countries Country
-      description: Retrieves a Country by id.
-      operationId: getCountriesCountry
-      x-api-path-slug: countriescountry-id-get
+      summary: Countries
+      description: Countries.
+      operationId: getCountriesDict
+      x-api-path-slug: apiv1dictionariescountries-get
       parameters:
-      - in: path
-        name: country_id
+      - in: query
+        name: tax_supported
+        description: Should only countries with tax supported be listed?
       responses:
         200:
           description: OK
       tags:
       - Countries
-      - Country
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

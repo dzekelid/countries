@@ -1,13 +1,13 @@
 ---
 swagger: "2.0"
-x-collection-name: Etsy
+x-collection-name: Jumpseller
 x-complete: 0
 info:
-  title: Etsy Get Countries Country
-  description: Retrieves a Country by id.
-  version: 1.0.0
-host: openapi.etsy.com
-basePath: /v2/private/
+  title: Jumpseller Get Countries
+  description: Retrieve all countries..
+  version: "1"
+host: api.jumpseller.com
+basePath: /v1
 schemes:
 - http
 produces:
@@ -15,21 +15,21 @@ produces:
 consumes:
 - application/json
 paths:
-  /countries/{country_id}:
+  /countries.json:
     get:
-      summary: Get Countries Country
-      description: Retrieves a Country by id.
-      operationId: getCountriesCountry
-      x-api-path-slug: countriescountry-id-get
+      summary: Get Countries
+      description: Retrieve all countries..
+      operationId: getCountries.json
+      x-api-path-slug: countries-json-get
       parameters:
-      - in: path
-        name: country_id
+      - in: query
+        name: No Name
       responses:
         200:
           description: OK
       tags:
       - Countries
-      - Country
+      - Json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
