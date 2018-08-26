@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Countries
+  title: Reverb Get Countries
   description: Retrieve a list of country codes with corresponding subregions
   termsOfService: https://reverb.com/page/terms
   contact:

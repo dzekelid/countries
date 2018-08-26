@@ -8,39 +8,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty
 x-kinRank: "8"
 x-alexaRank: "1939"
 tags: Countries
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Getty Images Get Countries
-  x-api-slug: getty-images
+- name: Getty Images - Get Countries
+  x-api-slug: v3countries-get
   description: "Returns a list of country objects that contains country name, two
     letter ISO abbreviation and three letter ISO abbreviation.\r\n\r\nYou'll need
     an API key and access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/countries
-  tags: Images,Countries
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/getty-images/v3countries-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/getty-images/v3countries-get-openapi.md
-- name: Getty Images
-  x-api-slug: getty-images
-  description: Find high resolution royalty-free images, editorial stock photos, vector
-    art, video footage clips and stock music licensing at the richest image search
-    photo library online.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
-  humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com//
-  tags: Countries
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/getty-images/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://getstream.io.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://getty.images.stack.network
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
 - type: x-base

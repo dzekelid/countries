@@ -7,89 +7,60 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly
 x-kinRank: "8"
 x-alexaRank: "737"
 tags: Countries
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitly Domains API Get Link Countries
-  x-api-slug: bitly-domains-api
+- name: Bitly - Get Link Countries
+  x-api-slug: v3linkcountries-get
   description: Returns metrics about the countries referring click traffic to a single
     bitly link.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
   humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com////v3/link/countries
-  tags: Link,Countries
+  baseURL: https://api-ssl.bitly.com//
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/v3linkcountries-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/v3linkcountries-get-openapi.md
-- name: Bitly Domains API
-  x-api-slug: bitly-domains-api
-  description: Get the most out of your social and online marketing efforts. Own,
-    understand and activate your best audience through the power of the link with
-    Bitly Enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
-  humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//
-  tags: Countries
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/openapi.md
-- name: Bitly Link Metrics API Link Clicks by Country
-  x-api-slug: bitly-link-metrics-api
+- name: Bitly Link Metrics API - Link Clicks by Country
+  x-api-slug: linkcountries-get
   description: Returns metrics about the countries referring click traffic to a single
     Bitlink.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
   humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3//link/countries
-  tags: Link,Countries
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/linkcountries-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/linkcountries-get-openapi.md
-- name: Bitly Link Metrics API
-  x-api-slug: bitly-link-metrics-api
-  description: Get the most out of your social and online marketing efforts. Own,
-    understand and activate your best audience through the power of the link with
-    Bitly Enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
-  humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3
-  tags: Countries
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/openapi.md
-- name: Bitly User Metrics API User Countries
-  x-api-slug: bitly-user-metrics-api
+- name: Bitly User Metrics API - User Countries
+  x-api-slug: v3usercountries-get
   description: Returns aggregate metrics about the countries referring click traffic
     to all of the authenticated users Bitlinks.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
   humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3//v3/user/countries
-  tags: User,Countries
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/v3usercountries-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/v3usercountries-get-openapi.md
-- name: Bitly User Metrics API
-  x-api-slug: bitly-user-metrics-api
-  description: Get the most out of your social and online marketing efforts. Own,
-    understand and activate your best audience through the power of the link with
-    Bitly Enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
-  humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3
-  tags: Countries
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/bitly/openapi.md
 x-common:
 - type: x--net-library
   url: http://code.google.com/p/bitly-dot-net
+- type: x-api-gallery
+  url: http://bitbucket.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitly.stack.network
 - type: x-application-management
   url: http://dev.bitly.com/my_apps.html
 - type: x-base

@@ -71,6 +71,32 @@ paths:
       - Code
       - Regions
       - Json
+  /countries/{country_code}/regions/{region_code}.json:
+    get:
+      summary: Get Countries Country Code Regions Region Code
+      description: Retrieve a single region information object..
+      operationId: getCountriesCountryCodeRegionsRegionCode.json
+      x-api-path-slug: countriescountry-coderegionsregion-code-json-get
+      parameters:
+      - in: path
+        name: country_code
+        description: ISO3166 Country Code
+      - in: query
+        name: No Name
+      - in: path
+        name: region_code
+        description: Region Code
+      responses:
+        200:
+          description: OK
+      tags:
+      - Countries
+      - Country
+      - Code
+      - Regions
+      - Region
+      - Code
+      - Json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

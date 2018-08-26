@@ -33,4 +33,72 @@ paths:
       - Retrieve
       - all
       - countries
+  /information/v1/countries/{country_id}/security_cards:
+    get:
+      summary: Retrieve security information for a country
+      description: Retrieve security information for a country
+      operationId: getInformationV1CountriesCountry_idSecurity_cards
+      x-api-path-slug: informationv1countriescountry-idsecurity-cards-get
+      parameters:
+      - in: header
+        name: accept-language
+        description: Language/Country
+      - in: path
+        name: country_id
+        description: country id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Insurance
+      - Retrieve
+      - security
+      - informationa
+      - country
+  /information/v1/countries/{country_id}/health_cards:
+    get:
+      summary: Retrieve health information for a country
+      description: Retrieve health information for a country
+      operationId: getInformationV1CountriesCountry_idHealth_cards
+      x-api-path-slug: informationv1countriescountry-idhealth-cards-get
+      parameters:
+      - in: header
+        name: accept-language
+        description: Language/Country
+      - in: path
+        name: country_id
+        description: country id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Insurance
+      - Retrieve
+      - health
+      - informationa
+      - country
+  /information/v1/countries/{country_id}/alerts:
+    get:
+      summary: Retrieve the latest alerts for a specified country
+      description: Retrieve the latest alerts for a specified country
+      operationId: getInformationV1CountriesCountry_idAlerts
+      x-api-path-slug: informationv1countriescountry-idalerts-get
+      parameters:
+      - in: header
+        name: accept-language
+        description: Language/Country
+      - in: path
+        name: country_id
+        description: country id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Insurance
+      - Retrieve
+      - the
+      - latest
+      - alertsa
+      - specified
+      - country
 ---
