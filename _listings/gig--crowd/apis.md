@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Countries
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GIG & Crowd - Get Country Query
+  x-api-slug: apiv1countryquery-get
+  description: Get country query.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/gig--crowd/apiv1countryquery-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/gig--crowd/apiv1countryquery-get-openapi.md
 - name: GIG & Crowd - Get Country Query
   x-api-slug: apiv1countryquery-get
   description: Get country query.

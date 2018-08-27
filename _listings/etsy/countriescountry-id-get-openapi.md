@@ -30,6 +30,17 @@ paths:
       tags:
       - Countries
       - Country
+  /countries:
+    get:
+      summary: Get Countries
+      description: Finds all Country.
+      operationId: getCountries
+      x-api-path-slug: countries-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Countries
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Countries
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/apis.md
 specificationVersion: "0.14"
 apis:
@@ -127,6 +127,54 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-openapi.md
+- name: Entertainment Express - Get Viewers by Country.
+  x-api-slug: analyticscountry-get
+  description: No required parameters, DateValue defaults to Today.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/analyticscountry-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/analyticscountry-get-openapi.md
+- name: 'Entertainment Express - '
+  x-api-slug: tvmedialineupsbrowsecountryidregionidareaid-get
+  description: Get lineups by AreaID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-openapi.md
+- name: 'Entertainment Express - '
+  x-api-slug: tvmedialineupsbrowsecountryidregionid-get
+  description: Get service areas for a specific country and region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionid-get-openapi.md
+- name: 'Entertainment Express - '
+  x-api-slug: tvmedialineupsbrowsecountryid-get
+  description: Browse regions by country.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/tvmedialineupsbrowsecountryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/entertainment-express/tvmedialineupsbrowsecountryid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://emuseum.api.docs.api.gallery.streamdata.io

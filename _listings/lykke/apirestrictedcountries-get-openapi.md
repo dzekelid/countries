@@ -14,6 +14,21 @@ produces:
 consumes:
 - application/json
 paths:
+  /api/CountryPhoneCodes:
+    get:
+      summary: Get API Countryphonecodes
+      description: Get api countryphonecodes.
+      operationId: ApiCountryPhoneCodesGet
+      x-api-path-slug: apicountryphonecodes-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      responses:
+        200:
+          description: OK
+      tags:
+      - Countryphonecodes
   /api/RestrictedCountries:
     get:
       summary: Get API Restrictedcountries

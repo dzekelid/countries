@@ -9,11 +9,56 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Countries
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/google-play/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Play - Get Video Country
+  x-api-slug: v1accountsaccountidstoreinfosvideoidcountrycountry-get
+  description: |-
+    Get a StoreInfo given its video id and country.
+
+    See _Authentication and Authorization rules_ and
+    _Get methods rules_ for more information about this method.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/google-play/v1accountsaccountidstoreinfosvideoidcountrycountry-get-openapi.md
+- name: Google Play - Get Video Country
+  x-api-slug: v1accountsaccountidstoreinfosvideoidcountrycountry-get
+  description: |-
+    Get a StoreInfo given its video id and country.
+
+    See _Authentication and Authorization rules_ and
+    _Get methods rules_ for more information about this method.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/google-play/v1accountsaccountidstoreinfosvideoidcountrycountry-get-openapi.md
+- name: Google Play - Get Video Country
+  x-api-slug: v1accountsaccountidstoreinfosvideoidcountrycountry-get
+  description: |-
+    Get a StoreInfo given its video id and country.
+
+    See _Authentication and Authorization rules_ and
+    _Get methods rules_ for more information about this method.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/google-play/v1accountsaccountidstoreinfosvideoidcountrycountry-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.people.api.gallery.streamdata.io

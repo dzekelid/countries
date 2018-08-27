@@ -14,11 +14,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Countries
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/eu-vat-api/apis.md
 specificationVersion: "0.14"
 apis:
+- name: VAT API - Retrieve a countries VAT rates by its 2 digit country code
+  x-api-slug: countrycodecheck-get
+  description: Retrieve a countries vat rates by its 2 digit country code.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png
+  humanURL: http://vatapi.com
+  baseURL: https://vatapi.com//v1
+  tags: VAT, EU, Taxes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/eu-vat-api/countrycodecheck-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/eu-vat-api/countrycodecheck-get-openapi.md
+- name: VAT API - Retrieve a countries VAT rates from an IP address
+  x-api-slug: ipcheck-get
+  description: Retrieve a countries vat rates from an ip address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png
+  humanURL: http://vatapi.com
+  baseURL: https://vatapi.com//v1
+  tags: VAT, EU, Taxes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/eu-vat-api/ipcheck-get-openapi.md
 - name: VAT API - Retrieve a countries VAT rates by its 2 digit country code
   x-api-slug: countrycodecheck-get
   description: Retrieve a countries vat rates by its 2 digit country code.

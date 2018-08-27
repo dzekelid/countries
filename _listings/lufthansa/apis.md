@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-p
 x-kinRank: "7"
 x-alexaRank: "3886"
 tags: Countries
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/lufthansa/apis.md
 specificationVersion: "0.14"
 apis:
+- name: LH Public - Countries
+  x-api-slug: referencescountriescountrycode-get
+  description: List all countries or one specific country. It is possible to request
+    the response in a specific language.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
+  humanURL: http://lufthansa.com
+  baseURL: https://api.lufthansa.com//v1
+  tags: Airlines, API Provider, Profiles, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/lufthansa/referencescountriescountrycode-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/lufthansa/referencescountriescountrycode-get-openapi.md
 - name: LH Public - Countries
   x-api-slug: referencescountriescountrycode-get
   description: List all countries or one specific country. It is possible to request

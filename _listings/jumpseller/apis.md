@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jump
 x-kinRank: "7"
 x-alexaRank: "153745"
 tags: Countries
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/apis.md
 specificationVersion: "0.14"
 apis:
@@ -144,6 +144,45 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/countriescountry-coderegionsregion-code-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/countriescountry-coderegionsregion-code-json-get-openapi.md
+- name: Jumpseller - Get Countries Country Code Regions Region Code
+  x-api-slug: countriescountry-coderegionsregion-code-json-get
+  description: Retrieve a single region information object..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jumpseller-api.jpg
+  humanURL: http://jumpseller.com
+  baseURL: https://api.jumpseller.com//v1
+  tags: Technology, Commerce, Stores, Affiliates, API Provider, Profiles, General
+    Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/countriescountry-coderegionsregion-code-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/countriescountry-coderegionsregion-code-json-get-openapi.md
+- name: Jumpseller - Get Countries Country Code Regions
+  x-api-slug: countriescountry-coderegions-json-get
+  description: Retrieve all regions from a single country..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jumpseller-api.jpg
+  humanURL: http://jumpseller.com
+  baseURL: https://api.jumpseller.com//v1
+  tags: Technology, Commerce, Stores, Affiliates, API Provider, Profiles, General
+    Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/countriescountry-coderegions-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/countriescountry-coderegions-json-get-openapi.md
+- name: Jumpseller - Get Countries Country Code
+  x-api-slug: countriescountry-code-json-get
+  description: Retrieve a single country information..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jumpseller-api.jpg
+  humanURL: http://jumpseller.com
+  baseURL: https://api.jumpseller.com//v1
+  tags: Technology, Commerce, Stores, Affiliates, API Provider, Profiles, General
+    Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/countriescountry-code-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/jumpseller/countriescountry-code-json-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://isendpro.telecom.api.gallery.streamdata.io

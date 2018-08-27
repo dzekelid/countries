@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28522-airp
 x-kinRank: "7"
 x-alexaRank: "12365"
 tags: Countries
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/transavia/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Airports API v2 - Get Country Codes
+  x-api-slug: countrycodecountrycode-get
+  description: Retrieve airports by country code.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28522-airports-api-v2.jpg
+  humanURL: http://transavia.com
+  baseURL: https://api.transavia.com//v2/airports
+  tags: Airlines, Travel, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/transavia/countrycodecountrycode-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/countries/master/_listings/transavia/countrycodecountrycode-get-openapi.md
 - name: Airports API v2 - Get Country Codes
   x-api-slug: countrycodecountrycode-get
   description: Retrieve airports by country code.
